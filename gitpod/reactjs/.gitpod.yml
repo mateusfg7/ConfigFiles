@@ -1,0 +1,17 @@
+image:
+  file: Dockerfile
+
+tasks:
+  - init: yarn install
+    command: yarn start
+
+ports:
+  - port: 3000
+    onOpen: open-browser
+
+vscode:
+  extensions:
+    - rocketseat.RocketseatReactJS@2.2.0:CMZI2JF+9mcg15CoJkRPOQ==
+    - dbaeumer.vscode-eslint@2.0.15:/v3eRFwBI38JLZJv5ExY5g==
+    - ricardo-emerson.react-development-extensions-pack@1.4.2:ZR9UKwg+vEw6gEStbxk8sw==
+    - EditorConfig.EditorConfig@0.14.5:DTIJHHNrM36zsvYRBOY3ow==
