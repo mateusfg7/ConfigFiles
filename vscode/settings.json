@@ -1,0 +1,61 @@
+{
+  // PRETTIER
+  "prettier.useEditorConfig": true,
+  "prettier.jsxSingleQuote": true,
+  
+  // EDITOR
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  
+  // EXPLORER
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  
+  // TERMINAL
+  "terminal.integrated.rendererType": "dom",
+  
+  // EMMET
+  "emmet.includeLanguages": {
+    "njk": "html", //nunjucks config
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  
+  // JAVASCRIPT
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  
+  // FILES
+  "files.autoSave": "off",
+  "files.associations": {
+    "*.html": "njk" //nunjucks config
+  },
+  
+  // GIT
+  "git.autofetch": true,
+  
+  // WINDOW
+  "window.zoomLevel": 0,
+  
+  // WORKBENCH
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.colorTheme": "Monokai",
+  
+  // LIVESERVER
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+  // OTHERS
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sqltools.useNodeRuntime": true,
+}
